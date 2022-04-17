@@ -5,6 +5,7 @@ import SplashPage from '../views/SplashPage.vue'
 import Map from '../components/Map.vue'
 import News from "../views/News.vue"
 import Rank from "../views/Rank.vue"
+import Gallery from "../views/Gallery.vue"
 const routes = [
     { path: "/", component: SplashPage },
     { path: "/main", component: Main },
@@ -12,6 +13,9 @@ const routes = [
     { path: "/news", component: News },
     {
         path: "/rank", component: Rank
+    },
+    {
+        path: "/gallery", component: Gallery
     }
 
 ]

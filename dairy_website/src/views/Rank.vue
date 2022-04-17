@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import Typed from 'typed.js'
-import { onMounted, ref } from 'vue';
+import { onMounted } from 'vue';
 import { init } from 'echarts'
 import { colorArray } from '@/colorArray';
-
+import BackButton from "@/components/BackButton.vue"
 const CalciumData = [
     {
         brand: "WDOM",
@@ -283,7 +283,7 @@ onMounted(() => {
 
     let Fat_option = {
         title: {
-            text: 'Protein',
+            text: 'Fat',
             left: 'center',
         },
         tooltip: {
@@ -661,7 +661,7 @@ world's "golden milk source belt" at 40-50 degrees south latitude. They are all 
         <div class="intro">
 
         </div>
-
+        <!--* 1-->
         <el-container>
             <el-aside width=" 60vw" class="aside">
                 <div id="main" class="main">
@@ -713,7 +713,9 @@ world's "golden milk source belt" at 40-50 degrees south latitude. They are all 
                     <el-table-column prop="value" label="Carbohydrate (mg/100ml)"></el-table-column>
                 </el-table>
             </el-main>
+            <BackButton></BackButton>
         </el-container>
+
     </div>
 
 </template>
@@ -746,5 +748,15 @@ world's "golden milk source belt" at 40-50 degrees south latitude. They are all 
         text-align: center;
 
     }
+}
+
+.back {
+
+    position: fixed;
+    top: 0;
+    left: 5px;
+    height: 50px;
+    width: 50px;
+
 }
 </style>

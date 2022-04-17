@@ -12,7 +12,7 @@
             <router-link to="/rank">Rankings</router-link>
             <router-link to="/">Technologies</router-link>
             <router-link to="/news">News</router-link>
-            <router-link to="/">Gallery</router-link>
+            <router-link to="/gallery">Gallery</router-link>
             <router-link to="/" class="about-us">ABOUTUS</router-link>
         </div>
         <div class="main">

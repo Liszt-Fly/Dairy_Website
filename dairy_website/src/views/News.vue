@@ -1,10 +1,8 @@
 <script setup lang="ts">
 import NewsBlock from "../components/NewsBlock.vue";
 import { newsarray } from '../db'
+import BackButton from '../components/BackButton.vue'
 
-const goBack = () => {
-    console.log("123")
-}
 </script>
 
 
@@ -17,6 +15,7 @@ const goBack = () => {
             <NewsBlock :datasource="n"></NewsBlock>
         </template>
     </div>
+    <BackButton></BackButton>
 </template>
 
 
@@ -32,5 +31,15 @@ const goBack = () => {
         text-align: center;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
     }
+}
+
+.back {
+
+    position: fixed;
+    top: 50%;
+    left: 5px;
+    height: 50px;
+    width: 50px;
+
 }
 </style>
