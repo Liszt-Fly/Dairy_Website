@@ -1,10 +1,11 @@
 <script lang="ts" setup>
 import ImageCard from "../components/ImageCard.vue"
-import { area, category, Image, ImageDataArray } from '@/db'
+import { ImageDataArray } from '@/db'
 //@ts-ignore
 import deepclone from 'deepclone'
 import BackButton from "@/components/BackButton.vue";
 import { Ref, ref } from "vue";
+import { category, Image, area } from "@/type";
 let dataArray: Ref<Image[]> = ref(ImageDataArray)
 const filter = (array: Image[], ...conditions: (string)[]) => {
 

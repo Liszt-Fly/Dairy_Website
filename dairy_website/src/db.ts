@@ -1,6 +1,8 @@
-import { area, category, Data, Image, TechnologyInfo } from "./type"
+import { area, category, Data, Image, news, TechnologyInfo } from "./type"
 import { CowBrand, MilkBrand } from "./util"
-
+let labelOption = {
+    show: true,
+}
 export const ImageDataArray: Image[] = [
     {
         title: "Angeln cattle, Germany",
@@ -811,4 +813,496 @@ export const FatData = [
     { brand: "Sunsides German", value: 3.6 },
     { brand: "The Land A2", value: 3.6 },
     { brand: "LVLINB", value: 3.6 }
+]
+export let Carbo_option = {
+    title: {
+        text: 'Carbohydrate',
+        left: 'center',
+    },
+    tooltip: {
+        trigger: 'axis',
+        axisPointer: {
+            type: 'shadow'
+        }
+    },
+    legend: {},
+    toolbox: {
+        show: true,
+        orient: 'vertical',
+        left: 'right',
+        top: 'center',
+        feature: {
+            mark: { show: true },
+            dataView: { show: true, readOnly: false },
+            magicType: { show: true, type: ['line', 'bar', 'stack'] },
+            restore: { show: true },
+            saveAsImage: { show: true }
+        }
+    },
+    xAxis: {
+        type: 'value',
+        boundaryGap: [0, 0.01]
+    },
+    yAxis: {
+        type: 'category',
+        data: ["VDevondale", "Valio", "The Land A2", "Dutch Cow", "So Natural", "LVLINB", "Lacheer Fresh", "Lacheer high-calcium", "MUN", "Arla", "Emmi", "Erie Satine", "Ranchétté SLVA", "Ranchétté"]
+    },
+    series: [
+
+        {
+
+            type: 'bar',
+            label: labelOption,
+            data: [
+                {
+                    value: 5.1,
+                    itemStyle: {
+                        color: colorArray[0]
+                    }
+                }, {
+                    value: 5,
+                    itemStyle: {
+                        color: colorArray[1]
+                    }
+                }, {
+                    value: 5,
+                    itemStyle: {
+                        color: colorArray[2]
+                    }
+                }, {
+                    value: 5,
+                    itemStyle: {
+                        color: colorArray[3]
+                    }
+                }, {
+                    value: 5,
+                    itemStyle: {
+                        color: colorArray[4]
+                    }
+                }, {
+                    value: 4.9,
+                    itemStyle: {
+                        color: colorArray[5]
+                    }
+                }, {
+                    value: 4.9,
+                    itemStyle: {
+                        color: colorArray[6]
+                    }
+                }, {
+                    value: 4.9,
+                    itemStyle: {
+                        color: colorArray[3]
+                    }
+                }, {
+                    value: 4.9,
+                    itemStyle: {
+                        color: colorArray[4]
+                    }
+                }, {
+                    value: 4.9,
+                    itemStyle: {
+                        color: colorArray[5]
+                    }
+                }, {
+                    value: 4.9,
+                    itemStyle: {
+                        color: colorArray[6]
+                    }
+                }, {
+                    value: 4.8,
+                    itemStyle: {
+                        color: colorArray[7]
+                    }
+                }, {
+                    value: 4.8,
+                    itemStyle: {
+                        color: colorArray[8]
+                    }
+                }, {
+                    value: 4.8,
+                    itemStyle: {
+                        color: colorArray[9]
+                    }
+                }
+            ]
+        }
+    ]
+};
+
+export let Fat_option = {
+    title: {
+        text: 'Fat',
+        left: 'center',
+    },
+    tooltip: {
+        trigger: 'axis',
+        axisPointer: {
+            type: 'shadow'
+        }
+    },
+    legend: {},
+    toolbox: {
+        show: true,
+        orient: 'vertical',
+        left: 'right',
+        top: 'center',
+        feature: {
+            mark: { show: true },
+            dataView: { show: true, readOnly: false },
+            magicType: { show: true, type: ['line', 'bar', 'stack'] },
+            restore: { show: true },
+            saveAsImage: { show: true }
+        }
+    },
+    xAxis: {
+        type: 'value',
+        boundaryGap: [0, 0.01]
+    },
+    yAxis: {
+        type: 'category',
+        data: ["WDOM", "The Land(White)", "Meadow Fresh Walking Cow 4.0", "Sternenfair", "Erie Satine", "Dutch Cow", "Ranchétté SLVA", "Ranchétté", "Valio", "Vega", "Sunsides French", "Sunsides German", "The Land A2", "LVLINB"]
+    },
+    series: [
+
+        {
+
+            type: 'bar',
+            label: labelOption,
+            data: [
+                {
+                    value: 5,
+                    itemStyle: {
+                        color: colorArray[0]
+                    }
+                }, {
+                    value: 4,
+                    itemStyle: {
+                        color: colorArray[1]
+                    }
+                }, {
+                    value: 4,
+                    itemStyle: {
+                        color: colorArray[2]
+                    }
+                }, {
+                    value: 3.9,
+                    itemStyle: {
+                        color: colorArray[3]
+                    }
+                }, {
+                    value: 3.8,
+                    itemStyle: {
+                        color: colorArray[4]
+                    }
+                }, {
+                    value: 3.8,
+                    itemStyle: {
+                        color: colorArray[5]
+                    }
+                }, {
+                    value: 3.6,
+                    itemStyle: {
+                        color: colorArray[6]
+                    }
+                }, {
+                    value: 3.6,
+                    itemStyle: {
+                        color: colorArray[3]
+                    }
+                }, {
+                    value: 3.6,
+                    itemStyle: {
+                        color: colorArray[4]
+                    }
+                }, {
+                    value: 3.6,
+                    itemStyle: {
+                        color: colorArray[5]
+                    }
+                }, {
+                    value: 3.6,
+                    itemStyle: {
+                        color: colorArray[6]
+                    }
+                }, {
+                    value: 3.6,
+                    itemStyle: {
+                        color: colorArray[7]
+                    }
+                }, {
+                    value: 3.6,
+                    itemStyle: {
+                        color: colorArray[8]
+                    }
+                }, {
+                    value: 3.6,
+                    itemStyle: {
+                        color: colorArray[9]
+                    }
+                }
+            ]
+        }
+    ]
+};
+export let protein_option = {
+    title: {
+        text: 'Protein',
+        left: 'center',
+    },
+    tooltip: {
+        trigger: 'axis',
+        axisPointer: {
+            type: 'shadow'
+        }
+    },
+    legend: {},
+    toolbox: {
+        show: true,
+        orient: 'vertical',
+        left: 'right',
+        top: 'center',
+        feature: {
+            mark: { show: true },
+            dataView: { show: true, readOnly: false },
+            magicType: { show: true, type: ['line', 'bar', 'stack'] },
+            restore: { show: true },
+            saveAsImage: { show: true }
+        }
+    },
+    xAxis: {
+        type: 'value',
+        boundaryGap: [0, 0.01]
+    },
+    yAxis: {
+        type: 'category',
+        data: ["Erie Satine", "WDOM", "The Land(White)", "Meadow Fresh Walking Cow 4.0", "Flevomel", "Mengniu Deluxe", "Lacheer Fresh", "Lacheer dinosaur", "Lacheer German", "Globemilks", "The Land(Blue)", "Meadow Fresh", "Dutch Cow", "Sternenfair"]
+    },
+    series: [
+
+        {
+
+            type: 'bar',
+            label: labelOption,
+            data: [
+                {
+                    value: 4,
+                    itemStyle: {
+                        color: colorArray[0]
+                    }
+                }, {
+                    value: 4,
+                    itemStyle: {
+                        color: colorArray[1]
+                    }
+                }, {
+                    value: 4,
+                    itemStyle: {
+                        color: colorArray[2]
+                    }
+                }, {
+                    value: 4,
+                    itemStyle: {
+                        color: colorArray[3]
+                    }
+                }, {
+                    value: 3.7,
+                    itemStyle: {
+                        color: colorArray[4]
+                    }
+                }, {
+                    value: 3.6,
+                    itemStyle: {
+                        color: colorArray[5]
+                    }
+                }, {
+                    value: 3.6,
+                    itemStyle: {
+                        color: colorArray[6]
+                    }
+                }, {
+                    value: 3.6,
+                    itemStyle: {
+                        color: colorArray[3]
+                    }
+                }, {
+                    value: 3.6,
+                    itemStyle: {
+                        color: colorArray[4]
+                    }
+                }, {
+                    value: 3.6,
+                    itemStyle: {
+                        color: colorArray[5]
+                    }
+                }, {
+                    value: 3.5,
+                    itemStyle: {
+                        color: colorArray[6]
+                    }
+                }, {
+                    value: 3.5,
+                    itemStyle: {
+                        color: colorArray[7]
+                    }
+                }, {
+                    value: 3.5,
+                    itemStyle: {
+                        color: colorArray[8]
+                    }
+                }, {
+                    value: 3.4,
+                    itemStyle: {
+                        color: colorArray[9]
+                    }
+                }
+            ]
+        }
+    ]
+};
+
+export
+    // 指定图表的配置项和数据
+    let calcium_option = {
+        title: {
+            text: 'Calcium',
+            left: 'center',
+        },
+        tooltip: {
+            trigger: 'axis',
+            axisPointer: {
+                type: 'shadow'
+            }
+        },
+        legend: {},
+        toolbox: {
+            show: true,
+            orient: 'vertical',
+            left: 'right',
+            top: 'center',
+            feature: {
+                mark: { show: true },
+                dataView: { show: true, readOnly: false },
+                magicType: { show: true, type: ['line', 'bar', 'stack'] },
+                restore: { show: true },
+                saveAsImage: { show: true }
+            }
+        },
+        xAxis: {
+            type: 'value',
+            boundaryGap: [0, 0.01]
+        },
+        yAxis: {
+            type: 'category',
+            data: ["WDOM", "Meadow Fresh Walking Cow4.0", "Meadow Fresh", "Sternenfair", "Lacheer Fresh", "MUH", "Flevomel", "The Land(Blue)", "The Land(White)", "Erie Satine", "Ranchétté SLVA", "Ranchétté", "Valio", "Vega"]
+        },
+        series: [
+
+            {
+
+                type: 'bar',
+                label: labelOption,
+                data: [
+                    {
+                        value: 133,
+                        itemStyle: {
+                            color: colorArray[0]
+                        }
+                    }, {
+                        value: 130,
+                        itemStyle: {
+                            color: colorArray[1]
+                        }
+                    }, {
+                        value: 125,
+                        itemStyle: {
+                            color: colorArray[2]
+                        }
+                    }, {
+                        value: 124,
+                        itemStyle: {
+                            color: colorArray[3]
+                        }
+                    }, {
+                        value: 124,
+                        itemStyle: {
+                            color: colorArray[4]
+                        }
+                    }, {
+                        value: 124,
+                        itemStyle: {
+                            color: colorArray[5]
+                        }
+                    }, {
+                        value: 124,
+                        itemStyle: {
+                            color: colorArray[6]
+                        }
+                    }, {
+                        value: 124,
+                        itemStyle: {
+                            color: colorArray[3]
+                        }
+                    }, {
+                        value: 122,
+                        itemStyle: {
+                            color: colorArray[4]
+                        }
+                    }, {
+                        value: 120,
+                        itemStyle: {
+                            color: colorArray[5]
+                        }
+                    }, {
+                        value: 120,
+                        itemStyle: {
+                            color: colorArray[6]
+                        }
+                    }, {
+                        value: 120,
+                        itemStyle: {
+                            color: colorArray[7]
+                        }
+                    }, {
+                        value: 120,
+                        itemStyle: {
+                            color: colorArray[8]
+                        }
+                    }, {
+                        value: 124,
+                        itemStyle: {
+                            color: colorArray[9]
+                        }
+                    }
+                ]
+            }
+        ]
+    };
+export const newsarray: news[] = [
+    {
+        title: " Fonterra raises farmgate milk price forecast on strong dairy demand",
+        subtitle: "New Zealand's Fonterra (FCG.NZ), (FSF.NZ) on Thursday raised the forecast range for the price it pays farmers for milk in the 2021/22 season, citing an increase in global dairy rates due to strong demand and tight supply. ",
+        link: "https://www.reuters.com/business/fonterra-raises-farmgate-milk-price-forecast-strong-diary-demand-2022-02-23/"
+    }, {
+        title: "Farming in Ukraine, global food supply, milk prices and leaving farming",
+        subtitle: "Charlotte Smith speaks to a farmer in Ukraine about how the season is progressing as the war continues. Meanwhile, the increased price of fuel and fertiliser is beginning to bite. Dairy farmers call for consumers to pay around fifty per cent more for their milk. ",
+        link: "https://www.bbc.co.uk/programmes/m0016310"
+
+    },
+    {
+        title: "Cows' paradise under threat as Azorean island trembles.",
+        subtitle: "SAO JORGE, Portugal, March 28 (Reuters) - Covered in lush green pastures, Portugal's mid-Atlantic Azores archipelago is a cows' paradise. But the thousands of small earthquakes that have been rattling the volcanic island of Sao Jorge in recent days are leaving dairy farmers on edge.",
+        link: "https://www.reuters.com/business/environment/cows-paradise-under-threat-azorean-island-trembles-2022-03-28/"
+    },
+    {
+        title: "Several weeks ago, Dallas ISD launched an experiment in its cafeterias.",
+        subtitle: "Several weeks ago, Dallas ISD launched an experiment in its cafeterias.",
+        link: "https://www.cbsnews.com/dfw/news/dallas-isd-milk-shelf-ultra-pasteurized/?intcid=CNM-00-10abd1h"
+    },
+    {
+        title: "Britain's cost of living crisis is pushing millions to the brink.",
+        subtitle: `"Milk was 80p($1.05).The smallest one, that's gone to £1 ($1.31)," she said. "The bread — the cheapest bread that we used to do for £1 — has gone to £1.20 ($1.57)."\n Annual consumer price inflation hit 5.5% in January in the United Kingdom — its highest level since 1992 — fueled by product shortages and a sharp spike in demand as pandemic lockdowns were lifted.Wages aren't keeping pace.`,
+        link: "https://www.cnn.com/2022/03/15/business/britain-cost-of-living/index.html"
+    }
+
 ]
