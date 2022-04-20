@@ -10,7 +10,7 @@
             </router-link>
             <router-link to="/map">Maps</router-link>
             <router-link to="/rank">Rankings</router-link>
-            <router-link to="/">Technologies</router-link>
+            <router-link to="/technology">Technologies</router-link>
             <router-link to="/news">News</router-link>
             <router-link to="/gallery">Gallery</router-link>
             <router-link to="/" class="about-us">ABOUTUS</router-link>
@@ -127,7 +127,7 @@
             align-items: center;
 
             img {
-                width: 70%;
+                width: 70vh;
                 height: 70%;
             }
         }

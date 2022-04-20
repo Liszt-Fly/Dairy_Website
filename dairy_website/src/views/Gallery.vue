@@ -84,7 +84,7 @@ const area_options = [
 
 
 
-<style lang="scss">
+<style lang="scss" scoped>
 h2 {
     text-align: center;
 }

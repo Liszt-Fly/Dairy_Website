@@ -1,7 +1,7 @@
 <script lang="ts" setup>
-import L, { LatLng, LatLngTuple } from 'leaflet'
+import L, { LatLngTuple } from 'leaflet'
 import { onMounted } from 'vue';
-
+import BackButton from "../components/BackButton.vue"
 onMounted(() => {
     //以北京为中心
     var mymap = L.map("map").setView([19.1451, 51.9194], 3)
@@ -213,10 +213,22 @@ onMounted(() => {
 
 <template>
     <div class="map-view" id="map"></div>
+    <back-button></back-button>
 </template>
 
 <style scoped >
 #map {
     height: 100vh;
+}
+
+.back {
+
+    position: fixed;
+    top: 50%;
+    left: 5px;
+    height: 50px;
+    width: 50px;
+    z-index: 999;
+
 }
 </style>

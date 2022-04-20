@@ -9,12 +9,4 @@ const goBack = () => {
 }
 </script>
 <style lang="scss">
-.back {
-    position: fixed;
-    bottom: 0;
-    left: 5px;
-    height: 50px;
-    width: 50px;
-
-}
 </style>

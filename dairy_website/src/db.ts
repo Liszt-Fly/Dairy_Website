@@ -55,6 +55,12 @@ export interface Image {
     location: area
 
 }
+
+export interface TechnologyInfo {
+    title: string,
+    image: string,
+    content: string
+}
 export const ImageDataArray: Image[] = [
     {
         title: "Angeln cattle, Germany",
@@ -503,4 +509,37 @@ export const ImageDataArray: Image[] = [
         category: category.MILKBRAND,
         url: "https://mikes.oss-cn-beijing.aliyuncs.com/uPic/zK8671.jpg"
     },
+]
+
+export const TechnologyInformationArray: TechnologyInfo[] = [
+    {
+        title: "Conventional technology",
+        image: "https://mikes.oss-cn-beijing.aliyuncs.com/uPic/3027EE.jpg",
+        content: "In the rotary milking plant, more than 60 cows are guided by an automatic guidance system to the milking rotary in an orderly manner, where the operator sets up the suckers and the automatic milking system begins to operate. The milk is then transported by milk truck to the production plant. During transport, every drop of milk is visually tracked by GPS, and is scanned by barcode and randomly numbered upon arrival at the plant."
+    },
+    {
+        title: "INF immersion sterilisation technology",
+        image: "https://mikes.oss-cn-beijing.aliyuncs.com/uPic/p3uiCb.jpg",
+        content: "INF immersion sterilisation technology is also known as 'steam immersion sterilisation technology', which, as the name suggests, is a huge vacuum steam space where the milk passes through in a natural drip pattern at a uniform rate to achieve a rise in temperature. The milk is then sterilised by passing high pressure through the sterilisation temperature pipeline, where the steam is rapidly exchanged with the milk to complete the sterilisation process, and then cooled rapidly to evaporate excess water, as if the milk had been given a 'steam bath'. With this technology, the milk is deeply sterilised while retaining more active protein and tasting great."
+    },
+    {
+        title: "Litelead membrane separation technology",
+        image: "https://mikes.oss-cn-beijing.aliyuncs.com/uPic/ywNs6O.jpg",
+        content: "Lactalyst membrane separation technology whey protein concentration separation membrane process, mainly used for a-la and β-lactin molecular weight differences for purification and separation. Milk protein concentration separation membrane process ion exchange technology, purification concentration desalination technology and membrane separation equipment is mainly used to elute and separate and purify the two proteins by using the difference in the degree of charge and resin binding."
+    },
+    {
+        title: "Extended shelf life production process",
+        image: "https://mikes.oss-cn-beijing.aliyuncs.com/uPic/4neHjJ.jpg",
+        content: "ESL milk is really improved sterilization process and improve the filling equipment hygiene level based on the production of between ordinary bus pasteurized milk and ultra-high temperature sterilized milk, shelf life of 7 ~ 10d, 30d, 40d, or even longer, but ESL milk is still essentially pasteurized milk, the main measure is to use a higher sterilization temperature than pasteurization (i.e. ultra-pasteurization), the typical ultra-pasteurization conditions are ESL milk production methods include the plate heat exchanger method and a combination of concentration and pasteurisation. The difference between ESL milk and pasteurised milk and UHT milk is, to put it simply, the ability to maintain the flavourful and nutritious characteristics of the milk while improving shelf life."
+    },
+    {
+        title: "Skim milk concentration and desalination technology",
+        image: "https://mikes.oss-cn-beijing.aliyuncs.com/uPic/m0FoAz.jpg",
+        content: "After the fresh milk has been sterilised by bus, it is centrifuged for skimming. After the skimmed milk has been cooled down, it enters the nanofiltration system for concentrated desalination, during which pure water is continuously added to wash out the inorganic salts from the skimmed milk. The wastewater is treated by the reverse osmosis system to obtain pure water, which is then used in the nanofiltration process unit for water addition and elution."
+    },
+    {
+        title: "Pasteurisation",
+        content: "Sterilisation is carried out by rapidly heating the milk to a temperature of at least 135°C, holding it for a few seconds and then rapidly cooling it to ambient temperature. This treatment kills all microorganisms present in the raw milk. When packaged in aseptic containers, UHT milk can be stored for several months and does not require refrigeration until the package is opened. The shelf life of UHT milk is not limited by microbial growth, but by physical, chemical and enzymatic changes in the milk, such as browning reactions, cream separation, precipitation or gel formation. Consumers often use the term 'fresh milk' to describe milk distributed under refrigerated conditions. ",
+        image: "https://mikes.oss-cn-beijing.aliyuncs.com/uPic/idVrZP.jpg"
+    }
 ]
