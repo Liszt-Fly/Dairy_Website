@@ -2,7 +2,7 @@
 import Typed from 'typed.js'
 import { onMounted } from 'vue';
 import { init } from 'echarts'
-import { colorArray } from '@/colorArray';
+import { colorArray } from '../db';
 import BackButton from "@/components/BackButton.vue"
 const CalciumData = [
     {
