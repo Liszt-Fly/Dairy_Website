@@ -21,7 +21,7 @@ const goto = () => {
         <div class="content">
             <h1>Dairy Map Website</h1>
             <div class="subtitle">
-                <strong>Mais de quoi ? De vin, de poésie ou de vertu, à votre guise</strong>
+                <strong>Wine, poetry or virtue, as you wish</strong>
             </div>
             <div class="button" @click="goto">Visit</div>
         </div>
