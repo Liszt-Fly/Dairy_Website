@@ -1,13 +1,9 @@
 <script setup lang="ts">import { onMounted, ref } from 'vue';
 
 import { useRoute, useRouter } from 'vue-router';
-let audio = ref<HTMLAudioElement | null>(null);
+
 let route = useRoute();
-let router = useRouter();
-const play = () => {
-  audio.value!.play();
-  audio.value!.volume = 0.5
-};
+let router = useRouter()
 onMounted(() => {
   window.addEventListener('hashchange', () => {
 
@@ -21,10 +17,8 @@ onMounted(() => {
 </script>
 
 <template>
-  <div id="app" @mouseover="play">
-    <audio ref="audio" loop preload="auto">
-      <source src="@/assets/bgm.mp3" />
-    </audio>
+  <div id="app">
+
     <router-view></router-view>
   </div>
 </template>
