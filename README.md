@@ -57,7 +57,7 @@ This is an project for the course AGRI485 course. We build a website to show the
 │       └── Technology.vue
 ├── tsconfig.json
 └── vue.config.js
-<pre>
+</pre>
 ## 🏃‍♂️ Project setup & Quick Start
 ```
 npm install
