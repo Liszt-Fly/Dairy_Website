@@ -18,7 +18,7 @@
         <div class="main">
             <div class="left">
                 <div class="whitespace">
-                    <img src="../assets/Image3.png" />
+                    <img src="../assets/Image2.png" />
                 </div>
                 <div class="title">One Website help you understand more about milk.</div>
                 <small>This website provides the latest news about milk, explains the latest milk technology and also
