@@ -6,7 +6,8 @@
                 <el-carousel-item v-for="item in TechnologyInformationArray">
                     <h2>{{ item.title }}</h2>
                     <el-divider></el-divider>
-                    <img :src="item.image" alt="" class="image">
+
+                    <el-image class="image" :src="item.image" :preview-src-list="[item.image]"></el-image>
                     <el-divider></el-divider>
                     <div>{{ item.content }}</div>
                 </el-carousel-item>

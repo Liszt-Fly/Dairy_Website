@@ -18,7 +18,7 @@
         <div class="main">
             <div class="left">
                 <div class="whitespace">
-                    <img src="../assets/newspaper.png" />
+                    <img src="../assets/Image3.png" />
                 </div>
                 <div class="title">One Website help you understand more about milk.</div>
                 <small>This website provides the latest news about milk, explains the latest milk technology and also
@@ -26,7 +26,7 @@
             </div>
 
             <div class="right">
-                <img src="../assets/pinterest_board_photo.png" />
+                <img src="../assets/Image1.png" />
             </div>
         </div>
     </div>
@@ -101,8 +101,8 @@
                 align-items: center;
 
                 img {
-                    width: 30%;
-                    transform: rotate(30deg);
+                    width: 50%;
+
                 }
             }
 
@@ -127,8 +127,8 @@
             align-items: center;
 
             img {
-                width: 70vh;
-                height: 70%;
+                width: 50vh;
+                height: 50%;
             }
         }
     }
