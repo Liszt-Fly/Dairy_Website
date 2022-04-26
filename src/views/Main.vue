@@ -25,9 +25,7 @@
                     shows the distribution of milk sources and famous milk brands around the world on a map.</small>
             </div>
 
-            <div class="right">
 
-            </div>
         </div>
     </div>
 </template>
@@ -103,7 +101,7 @@
                 align-items: center;
 
                 img {
-                    width: 50%;
+                    width: 40%;
 
                 }
             }
@@ -113,26 +111,17 @@
                 font-size: 2.5rem;
                 font-weight: 600;
                 color: rgb(75, 75, 75);
+                text-align: center
             }
 
             small {
                 flex: 0.4;
                 font-style: italic;
+                text-align: center
             }
         }
 
-        &:nth-child(2) {
-            flex: 1.3;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
 
-            img {
-                width: 50vh;
-                height: 50%;
-            }
-        }
     }
 }
 </style>
