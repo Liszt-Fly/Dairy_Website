@@ -13,7 +13,7 @@
             <router-link to="/technology">Technologies</router-link>
             <router-link to="/news">News</router-link>
             <router-link to="/gallery">Gallery</router-link>
-            <router-link to="/" class="about-us">ABOUTUS</router-link>
+            <router-link to="/about" class="about-us">ABOUTUS</router-link>
         </div>
         <div class="main">
             <div class="left">
@@ -26,7 +26,7 @@
             </div>
 
             <div class="right">
-                <img src="../assets/Image1.png" />
+
             </div>
         </div>
     </div>
@@ -61,6 +61,7 @@
         margin-left: auto;
         padding: 10px;
         border-radius: 8px;
+
     }
 
     a {
@@ -77,6 +78,7 @@
             border-bottom: 1px solid transparent;
             border-color: #666;
             border-width: 2px;
+            background-color: aquamarine
         }
     }
 }

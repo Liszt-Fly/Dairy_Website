@@ -7,6 +7,7 @@ import News from "../views/News.vue"
 import Rank from "../views/Rank.vue"
 import Gallery from "../views/Gallery.vue"
 import Technology from "../views/Technology.vue"
+import about from "../views/About.vue"
 const routes = [
     { path: "/", component: SplashPage },
     { path: "/main", component: Main },
@@ -19,6 +20,9 @@ const routes = [
         path: "/gallery", component: Gallery
     }, {
         path: "/technology", component: Technology
+    },
+    {
+        path: "/about", component: about
     }
 
 ]

@@ -42,3 +42,10 @@ export interface Data {
     location: LatLngTuple,
     content: string
 }
+
+export interface PersonInfo {
+    name: string,
+    email: string,
+    schoolname: string
+
+}

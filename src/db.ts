@@ -1,4 +1,4 @@
-import { area, category, Data, Image, news, TechnologyInfo } from "./type"
+import { area, category, Data, Image, news, PersonInfo, TechnologyInfo } from "./type"
 import { CowBrand, MilkBrand } from "./util"
 let labelOption = {
     show: true,
@@ -1304,5 +1304,40 @@ export const newsarray: news[] = [
         subtitle: `"Milk was 80p($1.05).The smallest one, that's gone to £1 ($1.31)," she said. "The bread — the cheapest bread that we used to do for £1 — has gone to £1.20 ($1.57)."\n Annual consumer price inflation hit 5.5% in January in the United Kingdom — its highest level since 1992 — fueled by product shortages and a sharp spike in demand as pandemic lockdowns were lifted.Wages aren't keeping pace.`,
         link: "https://www.cnn.com/2022/03/15/business/britain-cost-of-living/index.html"
     }
+
+]
+export const PersonInfoArray: PersonInfo[] = [
+    {
+        name: "Yang Qiao",
+
+        email: "yqiao6@unl.edu",
+        schoolname: "Northwest Agriculture & Forestry UniversityUniversity of Nebraska- Lincoln"
+    },
+    {
+        name: "Fengjiao Sui",
+
+        email: "fsui2@unl.edu",
+        schoolname: "Northwest Agriculture & Forestry UniversityUniversity of Nebraska- Lincoln"
+    },
+    {
+        name: "Shuyang Ni",
+        email: "sni2@unl.edu ",
+        schoolname: "Northwest Agriculture & Forestry UniversityUniversity of Nebraska- Lincoln"
+    },
+    {
+        name: 'Haoxuan Sheng',
+        email: "hsheng4@unl.edu",
+        schoolname: "Northwest Agriculture & Forestry UniversityUniversity of Nebraska- Lincoln"
+    },
+    {
+        name: "Yi Shan",
+        email: "yshan4@unl.edu",
+        schoolname: "Northwest Agriculture & Forestry UniversityUniversity of Nebraska- Lincoln"
+    },
+    {
+        name: "Zimeng Lu",
+        email: "zlu12@unl.edu",
+        schoolname: "Northwest Agriculture & Forestry UniversityUniversity of Nebraska- Lincoln"
+    },
 
 ]
