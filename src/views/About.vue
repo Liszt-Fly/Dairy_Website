@@ -5,7 +5,7 @@
         <el-table :data="PersonInfoArray" row-class-name="bg" header-cell-class-name="header">
             <el-table-column prop="name" label="name" />
             <el-table-column prop="email" label="email" />
-            <el-table-column prop="schoolname" label="schoolname" width="180" />
+            <el-table-column prop="schoolname" label="schoolname" />
         </el-table>
         <BackButton></BackButton>
     </div>
@@ -18,6 +18,7 @@ import BackButton from "../components/BackButton.vue"
 
 <style lang="scss">
 .about {
+    padding: 40px;
     text-align: center;
     background-color: rgb(254, 249, 234);
 
