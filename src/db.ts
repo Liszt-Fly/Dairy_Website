@@ -654,165 +654,133 @@ export const data: Data[] = [
         name: "New Zealand",
         location: [-36.51, 174.45],
         content: `${CowBrand("Kiwi-Cross Cow Breed", "The offspring of the cross between Holstein cattle and Juan Shan cattle have the body shape between the two breeds and have the advantages of the two breeds, that is, their milk production ability is closer to Holstein cattle and the milk dry matter content is closer to Juan Shan cattle. Moreover, due to its heterosis, hybrid cattle have stronger stress resistance and survivability, as well as stronger and perfect breasts, excellent production life and easy production. According to the survey, its pregnancy period is shorter than that of Holstein cattle, which is more conducive to the realization of the unique compact calving cycle in New Zealand. The average of the KC for fat, protein, and total solids values was 4±0.08, 3.37±0.04, and 13.33±0.17, respectively.", "Dairy farming in New Zealand began in 1840. Juan Shan cattle were introduced into New Zealand in 1862, Holstein cattle were introduced into South Island of New Zealand in 1884 and North Island in 1888. New Zealand has been carrying out hybrid production of dairy cows and breeding of hybrid bulls for decades.")}${CowBrand("Holstein-Friesians Cow Breed", "Compared to jerseys, holstein-friesians are large (weighing over half a tonne) and their milk has high concentrations of protein and lactose.", "    The most common cow in the world, the black-and-white holstein-friesian comes from northern Holland and was first imported into New Zealand by Canterbury farmer John Grigg in 1884. Four years later it arrived in the North Island.The breed was boosted with the addition of large numbers imported from the United States in 1902–1903.")}${CowBrand("Jerseys Cow Breed", "Jerseys produce 13 per cent more fat and 9 per cent more milksolids than other breeds for their weight. Because more jerseys can be stocked per hectare, they became the number one breed in Taranaki, where farms were smaller.", "The tan-coloured jersey cow was the next breed imported in 1862 to Wanganui, and became popular because it gave more butterfat per litre of milk, and was smaller and easier to handle. In recent years, as the medical profession has changed its position on animal fat to regard it as healthy, and the jersey has come back into fashion. Five years ago, milk fat was worth one-third of milk protein value. Now a kilo of fat will be earning suppliers significantly more than a kilo of protein. Fans of the jersey view it as the most sustainable of the common dairy breeds. It produces about 8 per cent more profit and is regarded as kinder on the environment.")}${MilkBrand("Anchor Dairy Brand", "https://www.anchordairy.com/nz/en/products.html", " Fonterra Co-operative Group Limited, New Zealand")}${MilkBrand("NZMP Dairy Brand", "https://www.nzmp.com/global/en.html", " Fonterra Co-operative Group Limited, New Zealand")}`
-    }
+    },
+    {
+        name: "Inner Mongolia",
+        location: [43.47, 113.41],
+        content: `${CowBrand("Inner Mongolia Sanhe cattle", "The Sanhe cattle is the first breed bred in China for both dairy and meat use. The Sanhe cattle is highly adaptable, tolerant to roughage, alpine cold, disease resistant, good grazing, high milk fat rate and stable genetic performance.It has a good amino acid content, especially high lysine content, which is significantly higher than other breeds.", "The milk of Sanhe cows is of good quality, colourful and tasty, and is a nutritional supplement for the deficiencies, lungs and stomach, as well as for the production of body fluid and intestines. The vitamin and mineral content is high, and measurements prove that the overall milk composition contains 87 grams of water per 100 grams, 3.1-3.5 grams of protein, 3.0-4.8 grams of fat, 4.5-5 grams of lactose, 6 grams of carbohydrates, 0.7 grams of ash, 120 milligrams of calcium, 90 milligrams of phosphorus, 0.1 milligrams of paste, 0.1 milligrams of thiamin and 0.1 milligrams of lysine. 0.1 mg, thiamine 0.04 mg, ascorbic acid 1 mg.")}<br/><h5>Brands</h5>${MilkBrand("Youran Dairy", "https://www.yourandairy.com/zh/index.html", "Inner Mongolia")}`
+    },
+    {
+        name: "LiaoNing",
+        location: [40.13, 124.38],
+        content: `${MilkBrand("Yuexiu Huishan", ": http://www.huishandairy.com/CN/Web/", "LiaoNing Province")}`
+    },
+    {
+        name: "AnHui",
+        location: [31.85, 117.21],
+        content: `${MilkBrand("Modern Farming", "http://www.xiandaimuye.com/", "An Hui Province")}`
+    },
+    {
+        name: "HeiLongJiang",
+        location: [47.35, 128.04],
+        content: `${MilkBrand("YST Dairy Farm", "http://www.ystdfarm.com/index.html", "HeiLongJiang Province")}`
+    },
+    {
+        name: "Xin Jiang",
+        location: [42.45, 86.37],
+        content: `${CowBrand("Simmental cows ", "Originally from the Swiss Alps, Simmental cattle are not purebred for meat, but are a dairy and meat breed. However, because of their high milk production, they are no worse than the specialised beef breeds in terms of meat production and performance in service, making them a large breed for both dairy, meat and service.", "Simmental cows are good for milk and meat, with an average milk yield of 4070 kg and a milk fat percentage of 3.9%. Simmental cattle are distributed in the forested grasslands and horqin steppes in the north of China's northeast, in the south to the Nanling Mountains and their mountainous regions in the south and in the west to the vast grasslands of Xinjiang and the Qinghai-Tibet Plateau. The differences in soil, crops, grassland and mountain vegetation types are vast, but the Simmental cattle are well adapted to them, except for the Tibetan farm of Pengbo, which is located above 3800m and should be introduced from the calving stage.")}`
+    },
+
+
 ]
 
 export let colorArray = [
     "#1abc9c", "#8e44ad", "#f1c40f", "#2c3e50", "#c0392b", "#8c7ae6", "#00a8ff", "#44bd32", "#0097e6", "#1289A7", "#9980FA", "#EA2027", "#833471", "#1e272e"
 ]
 
-export const CalciumData = [
-    {
-        brand: "WDOM",
-        value: "133"
-    },
-    {
-        brand: "Meadow Fresh Walking Cow4.0",
-        value: "130"
-    },
-
-    {
-        brand: "Meadow Fresh",
-        value: "125"
-    },
-    {
-        brand: "Sternenfair",
-        value: "124"
-    },
-    {
-        brand: "Lacheer Fresh",
-        value: "124"
-    },
-    {
-        brand: "MUH",
-        value: "124"
-    },
-    {
-        brand: "Flevomel",
-        value: "124"
-    },
-    {
-        brand: "The Land(Blue)",
-        value: "122"
-    },
-    {
-        brand: "The Land(White)",
-        value: "122"
-    },
-    {
-        brand: "Erie Satine",
-        value: "120"
-    },
-    {
-        brand: "Ranchétté SLVA",
-        value: "120"
-    },
-    {
-        brand: "Ranchétté",
-        value: "120"
-    },
-    {
-        brand: "Valio",
-        value: "120"
-    },
-    {
-        brand: "Vega",
-        value: "120"
-    }
-]
 
 export
     const ProteinData = [
         {
-            brand: "Erie Satine",
+            brand: "Erie Satine,China",
             value: 4
         },
         {
-            brand: "WDOM",
+            brand: "WDOM,New Zealand",
             value: 4
         },
         {
-            brand: "The Land(White)",
+            brand: "The Land(White),Zealand",
             value: 4
         },
         {
-            brand: "adow Fresh Walking Cow 4.0",
+            brand: "Meadow Fresh Walking Cow 4.0,New Zealand",
             value: 4
         },
         {
-            brand: "Flevomel",
+            brand: "Flevomel,Netherlands",
             value: 3.7
         },
         {
-            brand: "Mengniu Deluxe",
+            brand: "Mengniu Deluxe,China",
             value: 3.6
         },
         {
-            brand: "Lacheer Fresh",
+            brand: "Lacheer Fresh,Germany",
             value: 3.6
         },
         {
-            brand: "Lacheer dinosaur",
+            brand: "Lacheer dinosaur,Gemany",
             value: 3.6
         },
         {
-            brand: "Lacheer German",
+            brand: "Lacheer German,Germany",
             value: 3.6
         },
         {
-            brand: "Globemilk",
+            brand: "Globemilk,Netherlands",
             value: 3.6
         },
         {
-            brand: "The Land(Blue)",
+            brand: "The Land(Blue),New Zealand",
             value: 3.5
         }
         ,
         {
-            brand: "Meadow Fresh",
+            brand: "Meadow Fresh,New Zealand",
             value: 3.5
         },
         {
-            brand: "Dutch Cow",
+            brand: "Dutch Cow,Netherlands",
             value: 3.5
         },
         {
-            brand: "Sternenfair",
+            brand: "Sternenfair,Germany",
             value: 3.4
         }
     ]
 export const CarboData = [
     { brand: "VDevondale", value: 5.1 },
-    { brand: "Valio", value: 5.0 },
-    { brand: "The Land A2", value: 5.0 },
-    { brand: "Dutch Cow", value: 5.0 },
-    { brand: "So Natural", value: 5.0 },
-    { brand: "LVLINB", value: 4.9 },
-    { brand: "Lacheer Fresh", value: 4.9 },
-    { brand: "Lacheer high-calcium", value: 4.9 },
-    { brand: "MUN", value: 4.9 },
-    { brand: "Arla", value: 4.9 },
-    { brand: "Emmi", value: 4.9 },
-    { brand: "Erie Satine", value: 4.8 },
-    { brand: "Ranchétté SLVA", value: 4.8 },
-    { brand: "Ranchétté", value: 4.8 }
+    { brand: "Valio,Finland", value: 5.0 },
+    { brand: "The Land A2,New Zealand", value: 5.0 },
+    { brand: "Dutch Cow,Netherlands", value: 5.0 },
+    { brand: "So Natural,Australia", value: 5.0 },
+    { brand: "LVLINB,Austria", value: 4.9 },
+    { brand: "Lacheer Fresh,Germany", value: 4.9 },
+    { brand: "Lacheer high-calcium,Germany", value: 4.9 },
+    { brand: "MUN,Germany", value: 4.9 },
+    { brand: "Arla,Denmark", value: 4.9 },
+    { brand: "Emmi,Switzerland", value: 4.9 },
+    { brand: "Erie Satine,China", value: 4.8 },
+    { brand: "Ranchétté SLVA,France", value: 4.8 },
+    { brand: "Ranchétté,France", value: 4.8 }
 
 ]
 export const FatData = [
-    { brand: "WDOM", value: 5.0 },
-    { brand: "The Land(White)", value: 4.0 },
-    { brand: "Meadow Fresh Walking Cow 4.0", value: 4.0 },
-    { brand: "Sternenfair", value: 3.9 },
-    { brand: "Erie Satine", value: 3.8 },
-    { brand: "Dutch Cow", value: 3.8 },
-    { brand: "Ranchétté SLVA", value: 3.6 },
-    { brand: "Ranchétté", value: 3.6 },
-    { brand: "Valio", value: 3.6 },
-    { brand: "Vega", value: 3.6 },
-    { brand: "Sunsides French", value: 3.6 },
-    { brand: "Sunsides German", value: 3.6 },
-    { brand: "The Land A2", value: 3.6 },
-    { brand: "LVLINB", value: 3.6 }
+    { brand: "WDOM,New Zealand", value: 5.0 },
+    { brand: "The Land(White),, New Zealand", value: 4.0 },
+    { brand: "Meadow Fresh Walking Cow 4.0,, New Zealand", value: 4.0 },
+    { brand: "Sternenfair, Germany", value: 3.9 },
+    { brand: "Erie Satine, China", value: 3.8 },
+    { brand: "Dutch Cow,Netherlands", value: 3.8 },
+    { brand: "Ranchétté SLVA,France", value: 3.6 },
+    { brand: "Ranchétté,France, Finland ", value: 3.6 },
+    { brand: "Valio,Finland", value: 3.6 },
+    { brand: "Vega,Spain", value: 3.6 },
+    { brand: "Sunsides French,French", value: 3.6 },
+    { brand: "Sunsides German,German", value: 3.6 },
+    { brand: "The Land A2,NewZealand", value: 3.6 },
+    { brand: "LVLINB,Austira", value: 3.6 }
 ]
 export let Carbo_option = {
     title: {
@@ -1161,123 +1129,6 @@ export let protein_option = {
     ]
 };
 
-export
-    // 指定图表的配置项和数据
-    let calcium_option = {
-        title: {
-            text: 'Calcium',
-            left: 'center',
-        },
-        tooltip: {
-            trigger: 'axis',
-            axisPointer: {
-                type: 'shadow'
-            }
-        },
-        legend: {},
-        toolbox: {
-            show: true,
-            orient: 'vertical',
-            left: 'right',
-            top: 'center',
-            feature: {
-                mark: { show: true },
-                dataView: { show: true, readOnly: false },
-                magicType: { show: true, type: ['line', 'bar', 'stack'] },
-                restore: { show: true },
-                saveAsImage: { show: true }
-            }
-        },
-        xAxis: {
-            type: 'value',
-            boundaryGap: [0, 0.01]
-        },
-        yAxis: {
-            type: 'category',
-            data: ["WDOM", "Meadow Fresh Walking Cow4.0", "Meadow Fresh", "Sternenfair", "Lacheer Fresh", "MUH", "Flevomel", "The Land(Blue)", "The Land(White)", "Erie Satine", "Ranchétté SLVA", "Ranchétté", "Valio", "Vega"]
-        },
-        series: [
-
-            {
-
-                type: 'bar',
-                label: labelOption,
-                data: [
-                    {
-                        value: 133,
-                        itemStyle: {
-                            color: colorArray[0]
-                        }
-                    }, {
-                        value: 130,
-                        itemStyle: {
-                            color: colorArray[1]
-                        }
-                    }, {
-                        value: 125,
-                        itemStyle: {
-                            color: colorArray[2]
-                        }
-                    }, {
-                        value: 124,
-                        itemStyle: {
-                            color: colorArray[3]
-                        }
-                    }, {
-                        value: 124,
-                        itemStyle: {
-                            color: colorArray[4]
-                        }
-                    }, {
-                        value: 124,
-                        itemStyle: {
-                            color: colorArray[5]
-                        }
-                    }, {
-                        value: 124,
-                        itemStyle: {
-                            color: colorArray[6]
-                        }
-                    }, {
-                        value: 124,
-                        itemStyle: {
-                            color: colorArray[3]
-                        }
-                    }, {
-                        value: 122,
-                        itemStyle: {
-                            color: colorArray[4]
-                        }
-                    }, {
-                        value: 120,
-                        itemStyle: {
-                            color: colorArray[5]
-                        }
-                    }, {
-                        value: 120,
-                        itemStyle: {
-                            color: colorArray[6]
-                        }
-                    }, {
-                        value: 120,
-                        itemStyle: {
-                            color: colorArray[7]
-                        }
-                    }, {
-                        value: 120,
-                        itemStyle: {
-                            color: colorArray[8]
-                        }
-                    }, {
-                        value: 124,
-                        itemStyle: {
-                            color: colorArray[9]
-                        }
-                    }
-                ]
-            }
-        ]
-    };
 export const newsarray: news[] = [
     {
         title: " Fonterra raises farmgate milk price forecast on strong dairy demand",
@@ -1303,6 +1154,17 @@ export const newsarray: news[] = [
         title: "Britain's cost of living crisis is pushing millions to the brink.",
         subtitle: `"Milk was 80p($1.05).The smallest one, that's gone to £1 ($1.31)," she said. "The bread — the cheapest bread that we used to do for £1 — has gone to £1.20 ($1.57)."\n Annual consumer price inflation hit 5.5% in January in the United Kingdom — its highest level since 1992 — fueled by product shortages and a sharp spike in demand as pandemic lockdowns were lifted.Wages aren't keeping pace.`,
         link: "https://www.cnn.com/2022/03/15/business/britain-cost-of-living/index.html"
+    }
+    , {
+        title: "In the past two years, China's milk consumption has increased significantly.",
+        subtitle: "In the past 10 years, milk consumption has been on the rise, with an average growth rate of 3.6 percent, and the growth of household milk consumption will accelerate in 2020 and 2021, Yang said. In 2021, per capita milk consumption will reach about 42.3 kg, an increase of about 11.8 percent over the previous year. This year is expected to maintain a certain proportion of rigid growth.",
+        link: "https://k.sina.com.cn/article_3208088385_bf378b41019018v3f.html"
+    },
+    {
+        title: "The U.S. Bureau of Statistics reported today that the U.S. Consumer Price Index (CPI)",
+        subtitle: " rose 0.5% in December on a seasonally adjusted basis, after rising 0.8% in November 2021. That has pushed headline inflation up 7 per cent over the past 12 months.Food prices have been one of the biggest contributors to inflation in 2021, and while the food index rose 0.5 percent last month, the increase was slower than in recent months. U.S. food prices rose another 0.4 percent in December. While still a concern, the increase was down slightly from 0.8% in November. It was still the biggest gain since October 2008."
+        ,
+        link: "https://cj.sina.com.cn/articles/view/1978308033/75ea95c10010131l5"
     }
 
 ]

@@ -2,9 +2,9 @@
 import Typed from 'typed.js'
 import { onMounted } from 'vue';
 import { init } from 'echarts'
-import { colorArray, FatData, CalciumData, CarboData, ProteinData, Carbo_option, Fat_option, protein_option, calcium_option } from '../db';
+import { colorArray, FatData, CarboData, ProteinData, Carbo_option, Fat_option, protein_option } from '../db';
 import BackButton from "@/components/BackButton.vue"
-const option = [calcium_option, protein_option, Fat_option, Carbo_option]
+const option = [protein_option, Fat_option, Carbo_option]
 function initChart() {
     document.querySelectorAll(".main").forEach((item, i) => {
         init(item as HTMLElement).setOption(option[i])
@@ -12,13 +12,8 @@ function initChart() {
 }
 function typeEffect() {
     var options = {
-        strings: [` The milk sources and producing areas of 40 pure milk include New Zealand, Australia, Germany, France, the
-            Netherlands, Switzerland, Ireland, Belgium, Austria, Poland, Portugal, Spain, etc.These places belong to
-            the
-world's "golden milk source belt" at 40-50 degrees south latitude. They are all ultra-high temperature
-            sterilized milk(i.e.constant temperature milk).They can be stored hermetically at room temperature for
-            8 - 12
-            months.All non organic whole milk.\nThese brands include: Mengniu, Erie, Ranchétté, Dutch Cow, Arla, Weidendorf,Devondale, Sunsides, So Natural, Meadow Fresh,Anchor, Emmii, Olderburg, The Land, MUH, OMU, SUKI, MLEKOVITA, Hochwald, Globemilk, Avonmore, Sternenfair, Lacheer, Flevomel, NEPEAN RIVER, SalzburgMilch, LVLINB, WDOM, Valio and Vega. Comparing the nutritional value (calcium, protein, fat and carbohydrate) of 40 pure milk, only the top 15 are displayed.`],
+        strings: [` In this section, 40 different brands of ultra-pasteurized whole milk are selected and ranked according to their protein, fat, carbohydrate and calcium content. Only the top 15 are shown in the ranking. The brand name is followed by the country to which the brand belongs.
+The milk sources and production locations of the 40 milk brands include New Zealand, Australia, Germany, France, Netherlands, Switzerland, Ireland, Belgium, Austria, Poland, Portugal, and Spain. These places belong to the world's "Golden Milk Belt" at 40-50 degrees south latitude. These brands include Mengniu, Yili, Ranchétté, Dutch Cow, Arla, Weidendorf, Devondale, Sunsides, So Natural, Meadow Fresh, Anchor, Emmii, Olderburg, The Land, MUH, OMU, SUKI MLEKOVITA, Hochwald, Globemilk, Avonmore, Sternenfair, Lacheer, Flevomel, NEPEAN RIVER, SalzburgMilch, LVLINB, WDOM, Valio and Vega.`],
         typeSpeed: 10
     }
     var typed = new Typed(".intro", options)
@@ -42,20 +37,6 @@ onMounted(() => {
 
         </div>
         <!--* 1-->
-        <el-container>
-            <el-aside width=" 60vw" class="aside">
-                <div id="main" class="main">
-                </div>
-            </el-aside>
-            <el-main>
-                <el-table :data="CalciumData">
-                    <el-table-column prop="brand" label="MilkBrand"></el-table-column>
-                    <el-table-column prop="value" label="Calcium (mg/100ml)"></el-table-column>
-                </el-table>
-            </el-main>
-        </el-container>
-
-        <el-divider></el-divider>
         <el-container>
             <el-aside width=" 60vw" class="aside">
                 <div id="protein_main" class="main">
