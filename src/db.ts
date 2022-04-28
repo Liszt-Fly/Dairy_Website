@@ -456,7 +456,7 @@ export const ImageDataArray: Image[] = [
 export const TechnologyInformationArray: TechnologyInfo[] = [
     {
         title: "Conventional technology",
-        image: "https://mikes.oss-cn-beijing.aliyuncs.com/uPic/3027EE.jpg",
+        image: "https://mikes.oss-cn-beijing.aliyuncs.com/uPic/E5424FC854A54A7E4638C470E0BB8705.png",
         content: "In the rotary milking plant, more than 60 cows are guided by an automatic guidance system to the milking rotary in an orderly manner, where the operator sets up the suckers and the automatic milking system begins to operate. The milk is then transported by milk truck to the production plant. During transport, every drop of milk is visually tracked by GPS, and is scanned by barcode and randomly numbered upon arrival at the plant."
     },
     {
