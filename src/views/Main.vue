@@ -76,7 +76,7 @@
             border-bottom: 1px solid transparent;
             border-color: #666;
             border-width: 2px;
-            background-color: aquamarine
+
         }
     }
 }

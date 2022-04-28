@@ -64,18 +64,8 @@ export const ImageDataArray: Image[] = [
         url: "https://mikes.oss-cn-beijing.aliyuncs.com/uPic/YlxvjJ.jpg",
         category: category.COWBREED
     },
-    {
-        title: "Mongolian goat, Mongolia",
-        location: area.ASIA,
-        url: "https://mikes.oss-cn-beijing.aliyuncs.com/uPic/4N42ai.jpg",
-        category: category.COWBREED
-    },
-    {
-        title: "Horse, Mongolia",
-        location: area.ASIA,
-        url: "https://mikes.oss-cn-beijing.aliyuncs.com/uPic/4N42ai.jpg",
-        category: category.COWBREED
-    },
+
+
     {
         title: "Holstein, Japan",
         location: area.ASIA,
